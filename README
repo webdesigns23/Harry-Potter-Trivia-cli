@@ -1,0 +1,29 @@
+Harry Potter-CLI Trivia Game:
+
+This is a command-line interface (CLI) trivia game built in JavaScript, featuring questions from the Star Wars universe. Users answer a series of timed multiple-choice questions and receive instant feedback and a final score at the end.
+
+How the Game Works:
+1. The game is run directly from your CLI terminal.
+2. You will answer 5 Harry Potter Trivia Questions
+3. The Questions will be Multiple Choice 
+4. Select option 1, 2, 3, or 4 by typing the number correlating to the correct answer into the CLI Terminal.
+5. You will get feedback on each question after you have answered it, displaying the question and your answer in blue.
+6. There is a 10 second time limit for each question. If the question has not been answered in 30 seconds the game will go to the next question and no points will be added for that question.
+7. You will be able to see your score at the end of the game to see how many questions you answered correctly and how many questions you got wrong.
+
+Environment Setup Requirements:
+1. Code Editor: Visual Studio Code or an preferred code editor
+2. To use game you will need to make sure you have the following downloaded on your Computer: Node.js for running JavaScript in terminal
+3. Dependencies: commander, @inquirer/prompts, chalk
+
+
+How to get access to the game:
+1.	Visit the link : webdesigns23/Harry-Potter-Trivia-cli
+2.	The link above will take you to GitHub where you can clone the repository on to your own machine.
+3.	Once the repository is saved on your machine you can open the terminal
+4.	Make sure you are in the bin folder where the hptrivia.js file is located.
+
+Running the Game on your CLI Terminal:
+1.	From your terminal you can now run the game using the following commands:
+1.	node hptrivia.js - use this one if you are located in the “./bin” folder
+2.	node bin/hptrivia.js - use this one if you are located in the “Harry-Potter-Trivia-cli” file
